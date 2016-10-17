@@ -1,1 +1,6 @@
 .DS_Store
+
+# Executables
+*.exe
+*.out
+*.app
