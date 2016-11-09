@@ -39,8 +39,8 @@ int main () {
     }
     for (int z = 0; z < d; z++) {
       scanf ("%d %d", &tempX, &tempY);
-      adjList[tempX].push_back(tempY);
-      inDegree[tempY]++;
+      adjList[tempY].push_back(tempX);
+      inDegree[tempX]++;
     }
 
     while (!disc1Queue.empty()) disc1Queue.pop ();
